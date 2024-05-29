@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-screen min-h-screen bg-gray-700 flex items-center justify-center">
+        <div class="px-3 card w-1/2 h-80 bg-white">
+            <form action="/add" method="post">
+                <input class="block bg-gray-500 text-black w-full mt-5 p-3 rounded-md outline-none" type="text" placeholder="Item name" name="item">
+                <input class="block bg-gray-500 w-full mt-5 p-3 rounded-md outline-none" type="text" placeholder="Enter Amount" name="amount">
+                <input class="mt-5 bg-blue-700 p-2 rounded-md" type="submit" value="Add item">
+            </form>
+     
+            <a class="block mt-5 text-right text-blue-700 " href="/expensetracker">see expense</a>
+        </div>
+    </div>
+</body>
+</html>
